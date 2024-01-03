@@ -58,7 +58,7 @@ class ViewController: UIViewController{
           let BasicCell = self.studentTableView.dequeueReusableCell(withIdentifier: "BasicCell", for: indexPath) 
 
           if indexPath.row % 2 == 0{
-              BasicCell.backgroundColor = .red
+              BasicCell.backgroundColor = .orange
           }
           else
           {
